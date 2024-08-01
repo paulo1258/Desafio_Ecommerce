@@ -12,7 +12,6 @@ from sklearn.model_selection import train_test_split
 # Exemplo de dados (substitua pelo seu DataFrame real)
 
 caminho = "ecommerce-customers"
-#C:/Users/paulo/OneDrive/Área de Trabalho/Python/Projetos/projeto_3_ecommerce/ecommerce-customers
 df = pd.read_csv(caminho)
 
 df1 = df.drop(['Avatar', 'Address', 'Email'], axis=1)
