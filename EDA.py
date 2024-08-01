@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import streamlit as st
 
-caminho = "paulo1258/Desafio_Ecommerce/EDA.py"
+caminho = "paulo1258/Desafio_Ecommerce/ecommerce-customers"
 
 df = pd.read_csv(caminho)
 
